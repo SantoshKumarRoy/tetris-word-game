@@ -1,58 +1,55 @@
-/* Set the height of the viewport to 100vh for full-screen layout */
+
 body,
 html {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #333; /* Set a dark background color for the entire page */
-  color: #fff; /* Set a light text color */
+  background-color: #333; /*background color for the entire page */
+  color: #fff;
 }
 
-/* Define a container to center content vertically */
+/* container to center content vertically */
 .game-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh; /* Ensures the container takes up the full viewport height */
+  min-height: 100vh; 
 }
 
-/* Style the Header at the top of the viewport */
+/*Header at the top of the viewport */
 .Header {
-  background-color: #000; /* Set a darker background color for the header */
+  background-color: #000; 
   color: #fff; /* Set a light text color for the header */
   padding: 20px;
 }
 
-/* Style the main content area (div.main-content) */
+/*main content area (div.main-content) */
 .main-content {
-  background-color: #222; /* Set a slightly darker background color for the main content */
-  flex-grow: 1; /* Makes the main content area expand to fill available space */
-  color: #fff;
+  background-color: #222;
+  flex-grow: 1;
+  color: red;
 }
 
-/* Style the Footer at the bottom of the viewport */
+/*Footer at the bottom of the viewport */
 .Footer {
-  background-color: #000; /* Set a darker background color for the footer */
-  color: #fff; /* Set a light text color for the footer */
+  background-color: #000; 
+  color: black; 
   padding: 20px;
   text-align: center;
 }
 
-/* GameBoard.css */
 
 .main-content {
-  background-color: #222; /* Set a slightly darker background color for the main content */
-  flex-grow: 1; /* Makes the main content area expand to fill available space */
+  background-color: #222;
+  flex-grow: 1; 
   color: #fff;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 
 .tetris-cell.filled {
-  background-color: rgb(9, 185, 9); /* Background color for filled cells */
+  background-color: rgb(8, 185, 9); 
   color: #fff; /* Text color for filled cells */
   border-radius: 7px;
 }
